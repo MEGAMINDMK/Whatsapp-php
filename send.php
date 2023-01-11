@@ -1,5 +1,5 @@
 $num = $_GET['tonum'];
-<a href="https://api.whatsapp.com/send?phone=<?php echo $num; ?>&text=I am <?php echo $_GET['name']; ?>, 
+<a href="https://web.whatsapp.com/send/?phone=<?php echo $num; ?>&text=I am <?php echo $_GET['name']; ?>, 
 My number <?php echo $_GET['number']; ?>, 
 I want to book my tour at date: <?php echo $_GET['dot']; ?>, 
 Time: <?php echo $_GET['ptime']; ?>, 
